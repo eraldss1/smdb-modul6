@@ -1,0 +1,10 @@
+CREATE DATABASE smdb_modul6;
+
+CREATE TABLE `mahasiswa` (
+  `id_mhs` int(11) NOT NULL AUTO_INCREMENT,
+  `nim` int(20) NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `kom` enum('A','B','C') NOT NULL,
+  `jurusan` varchar(30) NOT NULL,
+  PRIMARY KEY (`id_mhs`)
+);
